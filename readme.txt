@@ -31,7 +31,8 @@ Raspberry Pi:
  	sudo i2cdetect -y 1 (For the bme280)
  	vcgencmd get_camera (For raspberry pi camera)
 
-2. Add the configuration details for Firebase access to main.py in the placeholder.
+2. Add the configuration details for Firebase access to main.py in the placeholder. 
+   Ensure that it is the same as the Android App.
 
 3. Add the URL to the flask server in the placeholder.
 
