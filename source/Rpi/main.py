@@ -15,14 +15,16 @@ GPIO.setwarnings(False)
 i2c = board.I2C()  
 bme280 = adafruit_bme280.Adafruit_BME280_I2C(i2c)
 
+# Add the configuration of the database here
 config={
-    "apiKey": "gQny9AOO0rElTcAFRQIqHAW3ifHSDDQgtvB934iv",
-    "authDomain": "smartfridge5451-cd0f4.firebaseapp.com",
-    "databaseURL": "https://smartfridge5451-cd0f4-default-rtdb.firebaseio.com/",
-    "storageBucket": "smartfridge5451-cd0f4.appspot.com",
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "storageBucket": "",
 }
 
-url = 'https://5d44-103-6-150-60.ngrok.io/get_predictions'
+# Add the link to the REST API Server 
+url = ""
 
 
 firebase = pyrebase.initialize_app(config)

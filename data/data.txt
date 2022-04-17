@@ -1,0 +1,5 @@
+For the real time data base, we created the database with the help of the online interface of Firebase. The database is initialised with the help of the main python code when it is run on the Raspberry Pi. 
+
+The database can be updated after the configuration script is included in the main code. The config file needs to have the API key, the database url, the authorization domain and the storage bucket. You can get these configurations from the online interface of Firebase. 
+
+The rules need to be made false for read and write inorder to make it easier to update but in the future, it can be modified to increase the security of the datbase.
